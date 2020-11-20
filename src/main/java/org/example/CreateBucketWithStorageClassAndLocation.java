@@ -25,8 +25,8 @@ public class CreateBucketWithStorageClassAndLocation {
 
         CreateBucketWithStorageClassAndLocation csb = new CreateBucketWithStorageClassAndLocation();
 
-        String projectId =   "deletefileproj";
-        String bucketName = "mybcket2a";
+        String projectId =   "<your project>";
+        String bucketName = "<your bucket>";
         String SERVICE_ACCOUNT_JSON_PATH = "<your-service account>";
 
         Storage storage = StorageOptions.newBuilder()
